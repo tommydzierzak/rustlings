@@ -1,3 +1,19 @@
+<a name="5.6.1"></a>
+## 5.6.1 (2023-09-18)
+
+#### Changed
+
+- Converted all exercises with assertions to test mode.
+
+#### Fixed
+
+- `cow1`: Reverted regression introduced by calling `to_mut` where it
+  shouldn't have been called, and clarified comment.
+- `primitive_types3`: Require at least an array of 100 elements.
+- Removed hint comments when no hint exists for the exercise.
+- `as_ref_mut`: Fixed a typo in a test function name.
+- `enums3`: Fixed formatting with `rustfmt`.
+
 <a name="5.6.0"></a>
 ## 5.6.0 (2023-09-04)
 
@@ -151,7 +167,7 @@
 - **structs3**: Clarifed the hint
 - **quiz2, as_ref_mut, options1, traits1, traits2**: Clarified hints
 - **traits1, traits2, cli**: Tidied up unmatching backticks
-- **enums2**: Removed unneccessary indirection of self
+- **enums2**: Removed unnecessary indirection of self
 - **enums3**: Added an extra tuple comment
 
 #### Housekeeping
